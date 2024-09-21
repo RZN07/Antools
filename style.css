@@ -103,7 +103,8 @@ h1,h2,h3,h4,p,input,ul,li,img,button{
 .searchbar{
     padding: 21px 0px 22px 55.18px;
     width: 498px;
-    border: 1.5px solid white;
+    border: 1.5px solid;
+    border-image-source: linear-gradient(90.89deg, rgba(255, 255, 255, 0.1) -1.67%, rgba(255, 255, 255, 0) 103.73%);
     border-radius: 15px;
     background-color: var(--black2);
 }
