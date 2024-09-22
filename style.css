@@ -103,8 +103,32 @@ h1,h2,h3,h4,p,input,ul,li,img,button{
 .searchbar{
     padding: 21px 0px 22px 55.18px;
     width: 498px;
-    border: 1.5px solid;
-    border-image-source: linear-gradient(90.89deg, rgba(255, 255, 255, 0.1) -1.67%, rgba(255, 255, 255, 0) 103.73%);
+    border: 1.5px solid rgba(255, 255, 255, 0.1);
     border-radius: 15px;
     background-color: var(--black2);
+    transition: 0.2s;
+}
+
+.searchbar:focus{
+    outline: none;
+    border: 1.8px solid var(--orange);
+}
+
+.searchbtn{
+    padding: 12px 36.12px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--orange);
+    color: var(--white);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    transition: 0.2s;
+}
+
+.searchbtn:hover{
+    cursor: pointer;
+    background-color: var(--white);
+    color: var(--orange);
 }
