@@ -3,6 +3,7 @@
     --orange:#FF6E30;
     --black:#1E252B;
     --black2:#283036;
+    --gray:rgba(255, 255, 255, 0.55);
 }
 
 *{
@@ -18,7 +19,7 @@ ul{
     list-style: none;
 }
 
-h1,h2,h3,h4,p,input,ul,li,img,button{
+h1,h2,h3,h4,p,input,ul,li,img,button,a{
     margin: 0;
     padding: 0;
 }
@@ -32,9 +33,8 @@ h1,h2,h3,h4,p,input,ul,li,img,button{
 
 .header_wrap{
     display: flex;
-    flex-direction: row;
     margin-top: 26px;
-    justify-content: center;
+    align-items: center;
 }
 
 .header_nav{
@@ -49,26 +49,95 @@ h1,h2,h3,h4,p,input,ul,li,img,button{
     flex-direction: row;
     gap: 40px;
     align-items: center;
-    margin-right: 193px;
+    margin-right: 189px;
 }
 
 .header_menu_2{
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    gap: 12px;
     align-items: center;
 }
 
 .header_logo{
+    display: flex; 
+    align-items: center;
     margin-right: 257px;
+    color: var(--white);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
 }
 
-.header_logo_text{
-
+.header_logo img{
+    margin-right: 8px;
 }
 
-.header_logo_image{
+.hm1_link{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--gray);
+    transition: 0.2s;
+    display: flex; 
+    align-items: center;
+}
 
+.hm1_link:hover{
+    cursor: pointer;
+    color: var(--orange);
+}
+
+.hm2_login{
+    width: 99px;
+    padding: 12px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.78);
+    border: none;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.hm2_login:hover{
+    cursor: pointer;
+    color: var(--white);
+    background-color: var(--orange);
+}
+
+.hm2_login:focus{
+    cursor: pointer;
+    color: var(--orange);
+    background-color: var(--white);
+}
+
+.hm2_signup{
+    width: 118px;
+    padding: 12px 28px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.78);
+    border: none;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.hm2_signup:hover{
+    cursor: pointer;
+    color: var(--white);
+    background-color: var(--orange);
+}
+
+.hm2_signup:focus{
+    cursor: pointer;
+    color: var(--orange);
+    background-color: var(--white);
 }
 
 .top_info{
@@ -93,7 +162,7 @@ h1,h2,h3,h4,p,input,ul,li,img,button{
     width: 453px;
     margin-top: 30px;
     margin-bottom: 60px;
-    color: rgba(255, 255, 255, 0.55);
+    color: var(--gray);
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -115,6 +184,8 @@ h1,h2,h3,h4,p,input,ul,li,img,button{
 }
 
 .searchbtn{
+    position: relative;
+    left:-135px;
     padding: 12px 36.12px;
     border: none;
     border-radius: 8px;
@@ -131,4 +202,37 @@ h1,h2,h3,h4,p,input,ul,li,img,button{
     cursor: pointer;
     background-color: var(--white);
     color: var(--orange);
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    gap: 31px;
+    margin-top: 122px;
+    margin-bottom: 12px;
+}
+
+.popular_tools{
+    margin-top: 200px;
+}
+
+.popular_tools_headertext{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 130%;
+}
+
+.popular_tools_text{
+    margin-top: 25px;
+    margin-left: 400px;
+    text-align: center;
+    width: 427px;
+    color: var(--gray);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
 }
