@@ -473,11 +473,14 @@ h1,h2,h3,h4,p,input,ul,li,img,button,a{
     display: flex;
 }
 
-.newcomer_tools_row{
+.newcomer_tools_list{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
+    margin-left: 186px;
     margin-right: -25px;
+    margin-bottom: -50px;
 }
 
 .newcomer_tile{
