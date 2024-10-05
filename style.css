@@ -63,6 +63,7 @@ h1,h2,h3,h4,p,input,ul,li,img,button,a{
     flex-direction: row;
     gap: 12px;
     align-items: center;
+    margin-left: 34px;
 }
 
 .header_logo{
@@ -97,7 +98,6 @@ h1,h2,h3,h4,p,input,ul,li,img,button,a{
 }
 
 .hm2_login{
-    width: 99px;
     padding: 12px;
     font-style: normal;
     font-weight: 600;
@@ -123,7 +123,6 @@ h1,h2,h3,h4,p,input,ul,li,img,button,a{
 }
 
 .hm2_signup{
-    width: 118px;
     padding: 12px 28px;
     font-style: normal;
     font-weight: 600;
@@ -260,8 +259,6 @@ h1,h2,h3,h4,p,input,ul,li,img,button,a{
 .popular_tile{
     margin-right: 25px;
     margin-bottom: 120px;
-    width: 392px;
-    height: 294px;
     border-radius: 15px;
     border: 1.5px solid transparent;
     transition: 0.2s;
@@ -278,6 +275,7 @@ h1,h2,h3,h4,p,input,ul,li,img,button,a{
 }
 
 .tile_headertext{
+    margin-left: 30px;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
