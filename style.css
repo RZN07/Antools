@@ -470,8 +470,6 @@ h1,h2,h3,h4,p,input,ul,li,img,button,a{
 }
 
 .nt_box{
-    display: flex;
-    justify-content: flex-end;
 }
 
 .newcomer_tools_row{
@@ -510,8 +508,54 @@ h1,h2,h3,h4,p,input,ul,li,img,button,a{
     flex-direction: row;
 }
 
+.n_tile_subtext{
+    margin-bottom: 37px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    width: 245px;
+    color: var(--white4);
+    transition: 0.2s;
+}
+
 .the_team{
     margin-top: 200px;
+}
+
+.team_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.team_text{
+    width: 393px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.015em;
+    color: var(--white2);
+    margin-left: 57px;
+    margin-top: 50px;
+}
+
+.list_of_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.left_arrow{
+    margin-top: 260px;
+    margin-right: 123px;
+}
+
+.right_arrow{
+    margin-top: 260px;
+    margin-left: 123px;
 }
 
 .contribute{
