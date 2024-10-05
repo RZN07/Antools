@@ -191,6 +191,10 @@ h1,h2,h3,h4,p,input,ul,li,img,button,a{
     border: 1.8px solid var(--orange);
 }
 
+.searchbar:hover{
+    cursor: pointer;
+}
+
 .searchbtn{
     position: relative;
     left:-135px;
@@ -310,4 +314,9 @@ h1,h2,h3,h4,p,input,ul,li,img,button,a{
 
 .tile_subtext:hover{
     color: var(--white2);
+}
+
+.load_btn{
+    display: block;
+    margin: auto;
 }
