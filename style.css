@@ -257,7 +257,9 @@ h1,h2,h3,h4,p,input,ul,li,img,button,a{
 }
 
 .popular_tile{
+    justify-content: center;
     margin-right: 25px;
+    padding: 33px;
     margin-bottom: 120px;
     border-radius: 15px;
     border: 1.5px solid transparent;
@@ -303,6 +305,7 @@ h1,h2,h3,h4,p,input,ul,li,img,button,a{
 }
 
 .tile_subtext{
+    margin-bottom: 37px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -318,4 +321,9 @@ h1,h2,h3,h4,p,input,ul,li,img,button,a{
 .load_btn{
     display: block;
     margin: auto;
+}
+
+.popular_wrap_top{
+    display: flex;
+    margin-bottom: 30px;
 }
