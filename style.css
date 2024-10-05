@@ -555,11 +555,19 @@ h1,h2,h3,h4,p,input,ul,li,img,button,a{
 .left_arrow{
     margin-top: 260px;
     margin-right: 123px;
+    background-color: transparent;
+    border: none;
 }
 
 .right_arrow{
     margin-top: 260px;
     margin-left: 123px;
+    background-color: transparent;
+    border: none;
+}
+
+.left_arrow:hover, .right_arrow:hover{
+    cursor: pointer;
 }
 
 .contribute{
