@@ -470,6 +470,7 @@ h1,h2,h3,h4,p,input,ul,li,img,button,a{
 }
 
 .nt_box{
+    display: flex;
 }
 
 .newcomer_tools_row{
