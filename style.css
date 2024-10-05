@@ -34,7 +34,7 @@ h1,h2,h3,h4,p,input,ul,li,img,button,a{
     width: 1255px;
     margin: 0 auto;
     padding: 0 15px;
-    /*border: 1px dashed purple;*/
+    border: 1px dashed purple;
 }
 
 .header_wrap{
@@ -425,4 +425,95 @@ h1,h2,h3,h4,p,input,ul,li,img,button,a{
     font-size: 24px;
     line-height: 36px;
     color: rgba(255, 255, 255, 0.8);
+}
+
+.newcomer_tools{
+    margin-top: 200px;
+}
+
+.newcomer_headertext{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 130%;
+    color: var(--white3);
+}
+
+.newcomer_text{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    width: 427px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: var(--gray);
+}
+
+.explore_btn{
+    padding: 15px 40px;
+    border: none;
+    color: var(--white);
+    background-color: var(--orange);
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    transition: 0.2s;
+}
+
+.explore_btn:hover{
+    cursor: pointer;
+    background-color: var(--white);
+    color: var(--orange);
+}
+
+.nt_box{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.newcomer_tools_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: -25px;
+}
+
+.newcomer_tile{
+    justify-content: center;
+    margin-right: 25px;
+    padding: 28px 22px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    border: 1.5px solid transparent;
+    transition: 0.2s;
+}
+
+.newcomer_tile:hover{
+    background-color: var(--black2);
+    border: 1.5px solid var(--black3);
+}
+
+.folder_btn#newcomer{
+    margin-right: 43px;
+}
+
+.newcomer_wrap_top{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.newcomer_wrap_bottom{
+    display: flex;
+    flex-direction: row;
+}
+
+.the_team{
+    margin-top: 200px;
+}
+
+.contribute{
+    margin-top: 200px;
 }
